@@ -1,0 +1,537 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Header */
+.header {
+    background-color: #FEFEFE;
+    border-bottom: 96px;
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.header__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 35px 0;
+}
+
+.nav__link {
+    padding: 0 38px;
+    color: #000000;
+    font-size: 17px;
+    font-weight: 400;
+    font-family: 'Poppins' sans-serif;
+}
+
+.nav__sing {
+    padding: 12px 28px;
+    border: 1px solid #21b573;
+    background-color: #21b573;
+    color: #FFFFFF;
+    border-radius: 33px;
+}
+
+/* Intro */
+.intro {
+    padding: 55px 0 60px;
+}
+
+.intro__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.intro__text {
+    color: #fd511a;
+    font-size: 16px;
+    margin-bottom: 10px;
+
+}
+
+.intro__title {
+    font-size: 48px;
+    width: 414px;
+    border-bottom: 19px;
+    color: #000000;
+    font-weight: 700;
+    line-height: 48px;
+    border-left: 81px;
+    margin-bottom: 40px;
+}
+
+
+.intro__img {
+    width: 554px;
+
+}
+
+span {
+    color: #21b573;
+}
+
+.intro__subtitle {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 36px;
+    color: #6c6b6b;
+    width: 414px;
+    border-left: 83px;
+    margin-bottom: 70px;
+}
+
+.btn {
+    padding: 12px 36px;
+    border: 1px solid #21b573;
+    background-color: #21b573;
+    color: #FFFFFF;
+    border-radius: 33px;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Team */
+
+.team {
+    padding: 42px 0 105px;
+}
+
+.team__inner {
+    display: flex;
+    gap: 30px;
+}
+
+.team__card {
+    width: 270px;
+    height: 270px;
+    border-bottom: 22px;
+    border: 1px solid #F8FFFB;
+    background-color: #F8FFFB;
+    padding: 40px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.team__card:hover {
+    background-color: #FFFFFF;
+}
+
+.team_title {
+    margin-top: 22px;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 36px;
+    color: #413960;
+}
+
+.team_text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #585859;
+}
+
+/* Main */
+
+main {
+    background-color: #F2F2F2;
+}
+
+.main__title {
+    text-align: center;
+    color: #413960;
+    font-family: 'Poppins' sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 54px;
+    padding: 105px 0 55px;
+}
+
+.main_title {
+    text-align: center;
+    color: #413960;
+    font-family: 'Poppins' sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 54px;
+    padding: 88px 0 40px;
+}
+
+/* Future */
+
+.future__inner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.future__item {
+    width: 100%;
+}
+
+.future__title {
+    color: #413960;
+    margin-bottom: 8px;
+}
+
+.future__text {
+    color: #585859;
+    margin-bottom: 25px;
+}
+
+/* Future day */
+
+.future__day {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.day__title {
+    margin-right: 50px;
+}
+
+/* Ellipse */
+
+.ellipse__img {
+    display: flex;
+    text-align: center;
+    margin-left: 300px;
+}
+
+.ellipse__title {
+    width: 32rem;
+    font-size: 16px;
+    font-family: 'Poppins' sans-serif;
+    font-weight: 400;
+    line-height: 30px;
+    color: #000000;
+    text-align: start;
+    margin: 0 52px;
+    margin-bottom: 50px;
+}
+
+/* Footer */
+
+footer {
+    background-color: #282531;
+    padding: 45px 0 35px;
+}
+
+.footer__inner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__text {
+    width: 366px;
+    color: #D8D8D8;
+    margin-bottom: 180px;
+}
+
+.footer__link {
+    display: block;
+    color: #D8D8D8;
+}
+
+.footer__item h3 {
+    color: #FFFFFF;
+}
+
+/* Copiyright */
+
+.copiyright {
+    text-align: center;
+    color: #635C76;
+}
+
+.burger{
+    display: none;
+    padding: 9px 2px;
+    background: none;
+    border: 0;
+    cursor: pointer;
+    }
+    
+    .burger__item{
+    display: none;
+    width: 30px;
+    height: 3px;
+    background-color: #fff;
+    font-size: 0;
+    color: transparent;
+    cursor: pointer;
+    position: relative;
+    }
+    
+    .burger__item::before,
+    .burger__item::after{
+    content: '';
+    width: 100%;
+    height: 100%;
+    
+    background-color: #000000;
+    
+    position: absolute;
+    right: 0;
+    z-index: 1;
+    }
+    
+    .burger__item::before{
+        width: 32px;
+    top: -8px;
+    }
+    
+    .burger__item::after{
+        width: 26px;
+    bottom: -8px;
+    }
+
+/* Mobil */
+
+@media(max-width: 900px) {
+    /* Nav */
+.nav{
+display: none;
+}
+
+.burger{
+display: block;
+}
+
+/* Intro */
+
+.intro__inner{
+flex-wrap: wrap;
+}
+
+.intro__title{
+width: 49rem;
+}
+
+.intro__img{
+width: 554px;
+margin-left: 120px;
+margin-top: 50px;
+}
+
+/* Future */
+
+.future__inner{
+flex-wrap: wrap;
+text-align: center;
+}
+
+.future__day{
+margin-top: 20px;
+justify-content: end;
+text-align: center;
+margin-bottom: 30px;
+margin-right: 220px;
+}
+
+/* Ellipse */
+
+.ellipse__img{
+margin: 0;
+text-align: center;
+}
+}
+
+@media(max-width: 800px){
+/* Future */
+.future__day{
+    margin-top: 20px;
+    justify-content: end;
+    text-align: center;
+    margin-bottom: 30px;
+    }
+
+   /* Burger */
+.burger{
+    display: block;
+    }
+}
+
+@media(min-width: 600px){
+/* Burger */
+.burger{
+    display: block;
+    }
+
+/* Intro */
+.intro__title{
+width: 30rem;
+}
+
+.intro__img{
+margin: 0;
+width: 500px;
+margin-top: 40px;
+}
+
+ /* Team */
+
+ .team__inner{
+flex-wrap: wrap;
+justify-content: space-around;
+}
+
+/* Future */
+.future__day{
+margin-right: 80px;
+}
+
+/* Ellipse */
+
+.ellipse__title{
+width: 400px;
+}
+
+/* Footer */
+
+.footer__inner{
+    flex-wrap: wrap;
+}
+}
+
+@media(max-width: 400px){
+/* Burger */
+.burger{
+    display: block;
+    }
+
+/* Intro */
+.intro__title{
+    width: 30rem;
+    }
+    
+    .intro__img{
+    margin: 0;
+    width: 350px;
+    margin-top: 40px;
+    }
+
+    .intro__title{
+    width: 20rem;
+    }
+
+    .intro__subtitle{
+    width: 22rem;
+    }
+    
+     /* Team */
+    
+     .team__inner{
+    flex-wrap: wrap;
+    justify-content: space-around;
+    }
+    
+    /* Future */
+    .future__day{
+    margin-right: 80px;
+    }
+    
+    /* Ellipse */
+    
+    .ellipse__img{
+    flex-wrap: wrap;
+    }
+
+    .ellipse__img__1{
+    margin-left: 7rem;
+    }
+    
+    .ellipse__title{
+    width: 280px;
+    }
+    
+    /* Footer */
+    
+    .footer__inner{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .footer__item{
+    margin-bottom: 10px;
+    }
+
+    .footer__text{
+    margin: 10px;
+    }
+}
+
+@media(max-width: 300px){
+/* Burger */
+.burger{
+    display: block;
+    }
+
+/* Intro */
+
+.intro__text{
+margin-left: 44px;
+}
+
+.intro__title{
+width: 16rem;
+text-align: center;
+}
+
+.intro__subtitle{
+width: 18rem;
+text-align: center;
+}
+
+.btn{
+margin-left: 50px;
+}
+
+.intro__img{
+width: 250px;
+}
+
+/* Future */
+
+.online{
+height: 200px;
+width: 250px;
+}
+
+.future__day{
+display: none;
+}
+
+/* Ellipse */
+
+.ellipse__img__1{
+margin-left: 5rem;
+}
+
+.ellipse__title{
+width: 220px;
+}
+
+/* Footer */
+
+.footer__text{
+width: 250px;
+}
+}
